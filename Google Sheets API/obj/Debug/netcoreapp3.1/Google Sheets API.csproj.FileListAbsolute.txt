@@ -46,3 +46,27 @@ D:\УрФУ программы и практики\Hidden_Pull_Project\Google Sh
 D:\УрФУ программы и практики\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\УрФУ программы и практики\Hidden_Pull_Project\Google Sheets API\obj\Debug\netcoreapp3.1\Google Sheets API.csproj.CopyComplete
 D:\УрФУ программы и практики\Hidden_Pull_Project\Google Sheets API\obj\Debug\netcoreapp3.1\Google Sheets API.genruntimeconfig.cache
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google Sheets API.exe
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google Sheets API.deps.json
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google Sheets API.runtimeconfig.json
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google Sheets API.runtimeconfig.dev.json
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google Sheets API.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google Sheets API.pdb
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google.Apis.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google.Apis.Sheets.v4.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google.GData.AccessControl.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google.GData.Client.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google.GData.Documents.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Google.GData.Extensions.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\obj\Debug\netcoreapp3.1\Google Sheets API.csprojAssemblyReference.cache
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\obj\Debug\netcoreapp3.1\Google Sheets API.AssemblyInfoInputs.cache
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\obj\Debug\netcoreapp3.1\Google Sheets API.AssemblyInfo.cs
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\obj\Debug\netcoreapp3.1\Google Sheets API.csproj.CoreCompileInputs.cache
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\obj\Debug\netcoreapp3.1\Google Sheets API.csproj.CopyComplete
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\obj\Debug\netcoreapp3.1\Google Sheets API.dll
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\obj\Debug\netcoreapp3.1\Google Sheets API.pdb
+D:\JetBrains Rider 2021.1.1\Hidden_Pull_Project\Google Sheets API\obj\Debug\netcoreapp3.1\Google Sheets API.genruntimeconfig.cache

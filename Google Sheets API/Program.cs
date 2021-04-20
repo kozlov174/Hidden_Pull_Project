@@ -46,13 +46,8 @@ namespace GoogleSheetsAPI4_v1console
                 HttpClientInitializer = credential,
                 ApplicationName = "Jopa",
             });
-
-
-
-            String spreadsheetId2 = "14C4nf4MBafsc52Fb1toQ_5xqCjItB73G7it7-SNXgLw";
-            String range2 = "A1:C";  // update cell F5 
-            ValueRange valueRange = new ValueRange();
-            valueRange.MajorDimension = "COLUMNS";//"ROWS";//COLUMNS
+            
+            String spreadsheetId2 = "1uN353jfpWyAnxN-ucVnuHVELTbUi0xMQsj307pRnmaY";
 
             FillSpreadSheet(service, spreadsheetId2);
 
@@ -106,9 +101,9 @@ namespace GoogleSheetsAPI4_v1console
         {
             string[,] Data = new string[,]
             {
-            {"11", "55", "13" },
-            {"21", "JOPA SLONA", "23" },
-            {"31", "32", "33" }
+            {"11", "55", "13", "dsd"},
+            {"21", "JOPA", "23", "vbc" },
+            {"31", "32", "33", "fdsf" }
             };
 
             return Data;
