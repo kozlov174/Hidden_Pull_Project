@@ -312,11 +312,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\УрФУ программы и практики\\Google Sheets API\\Google Sheets API.csproj",
+      "projectUniqueName": "D:\\УрФУ программы и практики\\Hidden_Pull_Project\\Google Sheets API\\Google Sheets API.csproj",
       "projectName": "Google Sheets API",
-      "projectPath": "D:\\УрФУ программы и практики\\Google Sheets API\\Google Sheets API.csproj",
+      "projectPath": "D:\\УрФУ программы и практики\\Hidden_Pull_Project\\Google Sheets API\\Google Sheets API.csproj",
       "packagesPath": "C:\\Users\\kozlo\\.nuget\\packages\\",
-      "outputPath": "D:\\УрФУ программы и практики\\Google Sheets API\\obj\\",
+      "outputPath": "D:\\УрФУ программы и практики\\Hidden_Pull_Project\\Google Sheets API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

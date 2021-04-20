@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z0SzWGnxM3jP4a3U6UDpB0Q6b+bgVJ6+JiIxUWeoZdwVhP7XT6QT5XQSSPeXzt65JQ2nqkWDj3MUDdh+YsH4SQ==",
+  "dgSpecHash": "oqVSjs5c1CfaaHxi7SpGORS/27h2qypZnmOuhntfDLGEhEt94jTldc7OqXKqDbWlQGNZbLIzR48QiX4Jn5gR1g==",
   "success": true,
-  "projectFilePath": "D:\\УрФУ программы и практики\\Google Sheets API\\Google Sheets API.csproj",
+  "projectFilePath": "D:\\УрФУ программы и практики\\Hidden_Pull_Project\\Google Sheets API\\Google Sheets API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kozlo\\.nuget\\packages\\google.apis\\1.51.0\\google.apis.1.51.0.nupkg.sha512",
     "C:\\Users\\kozlo\\.nuget\\packages\\google.apis.auth\\1.51.0\\google.apis.auth.1.51.0.nupkg.sha512",

@@ -19,13 +19,7 @@ namespace GoogleSheetsAPI4_v1console
         // at ~/.credentials/sheets.googleapis.com-dotnet-quickstart.json
         static string[] Scopes = { SheetsService.Scope.Spreadsheets }; // static string[] Scopes = { SheetsService.Scope.SpreadsheetsReadonly };
         static string ApplicationName = "<MYSpreadsheet>";
-        private static string[,] Data = new string[,]
-        {
-            {"11", "12", "13" },
-            {"21", "22", "23" },
-            {"31", "32", "33" }
-        };
-
+        static string[,] Data = NewData();
         static void Main(string[] args)
         {
             UserCredential credential;
@@ -60,35 +54,25 @@ namespace GoogleSheetsAPI4_v1console
             ValueRange valueRange = new ValueRange();
             valueRange.MajorDimension = "COLUMNS";//"ROWS";//COLUMNS
 
-            FillSpreadSheet(service, spreadsheetId2, Data);
-
-            //var oblist = new object[2, 2] {{ 4, 4 }, { 4, 4}};
-            //foreach (var obj in oblist)
-            //{
-            //    valueRange.Values = new List<object> { oblist };
-            //}
-
-            //SpreadsheetsResource.ValuesResource.UpdateRequest update = service.Spreadsheets.Values.Update(valueRange, spreadsheetId2, range2);
-            //update.ValueInputOption = SpreadsheetsResource.ValuesResource.UpdateRequest.ValueInputOptionEnum.RAW;
-            //UpdateValuesResponse result2 = update.Execute();
+            FillSpreadSheet(service, spreadsheetId2);
 
             Console.WriteLine("done!");
         }
 
-        private static void FillSpreadSheet(SheetsService service, string spreadsheetId, string[,] data)
+        private static void FillSpreadSheet(SheetsService service, string spreadsheetId)
         {
             List<Request> requests = new List<Request>();
-            for (int i = 0; i < data.GetLength(0); i++)
+            for (int i = 0; i < Data.GetLength(0); i++)
             {
                 List<CellData> values = new List<CellData>();
 
-                for (int j = 0; j < data.GetLength(1); j++)
+                for (int j = 0; j < Data.GetLength(1); j++)
                 {
                     values.Add(new CellData
                     {
                         UserEnteredValue = new ExtendedValue
                         {
-                            StringValue = data[i, j]
+                            StringValue = Data[i, j]
                         }
                     });
                 }
@@ -116,6 +100,18 @@ namespace GoogleSheetsAPI4_v1console
             };
 
             service.Spreadsheets.BatchUpdate(busr, spreadsheetId).Execute();
+        }
+
+        public static string[,] NewData()
+        {
+            string[,] Data = new string[,]
+            {
+            {"11", "12", "13" },
+            {"21", "22", "23" },
+            {"31", "32", "33" }
+            };
+
+            return Data;
         }
     }
 }
