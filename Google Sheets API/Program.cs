@@ -107,7 +107,7 @@ namespace GoogleSheetsAPI4_v1console
             string[,] Data = new string[,]
             {
             {"11", "55", "13" },
-            {"21", "JOPA SLONA", "23" },
+            {"21", "JOPA MAKAKI", "23" },
             {"31", "32", "33" }
             };
 
