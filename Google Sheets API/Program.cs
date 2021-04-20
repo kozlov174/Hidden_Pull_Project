@@ -25,7 +25,7 @@ namespace GoogleSheetsAPI4_v1console
             UserCredential credential;
 
             using (var stream =
-                new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
+                new FileStream(@"..\..\..\credentials.json", FileMode.Open, FileAccess.Read))
             {
                 string credPath = System.Environment.GetFolderPath(
                     System.Environment.SpecialFolder.Personal);
@@ -58,7 +58,7 @@ namespace GoogleSheetsAPI4_v1console
 
             Console.WriteLine("done!");
         }
-
+        
         private static void FillSpreadSheet(SheetsService service, string spreadsheetId)
         {
             List<Request> requests = new List<Request>();
@@ -106,8 +106,8 @@ namespace GoogleSheetsAPI4_v1console
         {
             string[,] Data = new string[,]
             {
-            {"11", "12", "13" },
-            {"21", "22", "23" },
+            {"11", "55", "13" },
+            {"21", "JOPA SLONA", "23" },
             {"31", "32", "33" }
             };
 
